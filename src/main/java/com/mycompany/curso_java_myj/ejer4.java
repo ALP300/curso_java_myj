@@ -113,15 +113,15 @@ public class ejer4 extends javax.swing.JFrame {
 
     private void button1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button1ActionPerformed
         // TODO add your handling code here:
-            int num1 = Integer.parseInt(txtA.getText());
+    int num1 = Integer.parseInt(txtA.getText());
     int num2 = Integer.parseInt(txtB.getText());
     
     if (num1 > num2) {
         textArea1.append("num1 es mayor que num2");
     } else if (num1 < num2) {
-        textArea1.append("num2 es mayor que num1");
+        textArea1.setText("num2 es mayor que num1");
     } else {
-        textArea1.append("son iguales");
+        textArea1.setText("son iguales");
     }   
     
     }//GEN-LAST:event_button1ActionPerformed
