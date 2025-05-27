@@ -50,6 +50,12 @@ public class Frm_ejer1_semana1 extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
         jLabel4.setText("NUM1");
 
+        txtNum1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtNum1ActionPerformed(evt);
+            }
+        });
+
         btnProcesar.setText("PROCESAR");
         btnProcesar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -132,6 +138,10 @@ public class Frm_ejer1_semana1 extends javax.swing.JFrame {
            txtA.append("El mayor es: "+c);
       }
     }//GEN-LAST:event_btnProcesarActionPerformed
+
+    private void txtNum1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNum1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtNum1ActionPerformed
 
     /**
      * @param args the command line arguments
