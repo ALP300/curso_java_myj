@@ -40,6 +40,12 @@ public class Frm_ejer2_semana1 extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         jLabel2.setText("NÚMERO :");
 
+        txtNum1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtNum1ActionPerformed(evt);
+            }
+        });
+
         jButton1.setText("VALIDAR");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -103,6 +109,10 @@ public class Frm_ejer2_semana1 extends javax.swing.JFrame {
             txtA.setText("El número es mayor a 100");
         }
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void txtNum1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNum1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtNum1ActionPerformed
 
     /**
      * @param args the command line arguments
