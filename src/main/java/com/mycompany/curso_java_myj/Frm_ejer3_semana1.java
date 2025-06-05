@@ -129,6 +129,7 @@ public class Frm_ejer3_semana1 extends javax.swing.JFrame {
 
     private void btnProcesarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProcesarActionPerformed
         double num1= Integer.parseInt(txtNum1.getText());
+        
         double num2= Integer.parseInt(txtNum2.getText());
         int operacion= cboSeleccionar.getSelectedIndex();
         switch(operacion){
@@ -149,7 +150,6 @@ public class Frm_ejer3_semana1 extends javax.swing.JFrame {
                 break;   
             default:
                 JOptionPane.showMessageDialog(null, "OPCIÓN NO VÁLIDA");
-
         }
     }//GEN-LAST:event_btnProcesarActionPerformed
 
